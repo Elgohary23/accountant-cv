@@ -1,0 +1,25 @@
+#about-me{
+    font-size: 17px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.about-me{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 29px;
+    margin-left: -26px;
+    margin-top: -20px;
+    color: #604D42;
+}
+
+.about-content{
+    width:85%;
+    margin-top: 27px;
+    font-size: 23px;
+    margin-bottom: -54px;
+    color: #604D42;
+    margin-left: 6%;
+    
+}

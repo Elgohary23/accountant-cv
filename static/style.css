@@ -1,0 +1,118 @@
+.container{
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+
+
+
+
+#cv-elements{
+    display: grid;
+    grid-template-columns: .5fr 25px 1fr 1fr 18px 1fr 1fr 25px .5fr; /* Creates 11 columns with equal width */
+    grid-template-rows: 1fr 1fr 1fr 1fr 18px 1fr 1fr 1fr 1fr ;    /* Creates 11 rows with equal height */
+    gap: 5px; /* Optional: Set the gap between grid items if desired */
+    
+    /* Additional styling for the parent container if needed */
+    width: 100%; /* Adjust the width as per your requirement */
+    height: 100%; /* Adjust the height as per your requirement */
+    margin-top: 0px;
+    grid-row-gap: 0px;
+    grid-column-gap: 0px;
+}
+
+.trns-squere{
+    background-color: transparent;
+    border: 2px solid #CDB797;
+    border-radius: 3px;
+    padding: 5%;
+
+}
+
+.education{
+    grid-row: 2/5;
+    grid-column: 2/5;
+}
+.skills{
+    grid-row: 2/5;
+    grid-column: 6/9;
+
+}
+
+.work-experience{
+    grid-row: 6/9;
+    grid-column: 2/5;
+}
+.personal-skills{
+    grid-row: 6/9;
+    grid-column: 6/9;
+}
+
+
+
+
+.titling{
+    font-weight: bold;
+    font-size: 25px;
+    color: #604D42;
+    width: fit-content;
+    padding: 6px;
+    border-radius: 3px;
+    margin-left: 7px;
+    background-color: #f1e9df;
+    margin-top: 15px;
+} 
+.education-content{
+    color:#967867 ;
+    width: 370px;
+    font-weight: bold;
+    margin-left: 15%;
+    margin-top: 7%;
+    font-size: 21px;
+}
+
+
+
+
+.list{
+    font-size: 22px;
+    margin-left: 49px;
+    margin-top: 17px;
+    color: #604D42;
+    margin-bottom: 26px;
+    
+}
+
+.work-experience-content{
+    margin-top: 4%;
+    margin-left: 8.5%;
+    display: grid;
+    gap: 4px;
+    font-size: 18px;
+}
+    
+
+
+.job-title{
+    color:#967867;
+    font-weight: bold;
+}
+.duration{
+    color:#604D42;
+    
+}
+
+.font-style{
+    font-style: italic;
+}
+
+.job-describetion{
+    color: #604D42;
+}
+.work-type{
+    color: #604D42;
+}

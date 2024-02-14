@@ -1,0 +1,199 @@
+@media (max-width: 419px) {
+    /* Add your styles for smaller screens here */
+    #name{
+        font-size: 53px;
+        font-weight: bold;
+        padding-top: 27px;
+        color: #604D42;
+        height: fit-content;
+    }
+}
+
+@media (max-width: 322px) {
+    /* Add your styles for smaller screens here */
+    #name{
+        font-size: 40px;
+        font-weight: bold;
+        padding-top: 27px;
+        color: #604D42;
+        height: fit-content;
+    }
+    .contact-data{
+        display: grid;
+        align-items: space-between;
+        justify-content: center;
+        
+    }
+    .number{
+        display: grid;
+        align-items: space-between;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 779px) {
+    /* Add your styles for smaller screens here */
+    .about-content{
+        
+        margin-top: 5px;
+        
+    }
+}
+
+@media (max-width: 459px) {
+    /* Add your styles for smaller screens here */
+    .about-content{
+        width: 340px;
+        margin-top: 5px;
+        
+    }
+}
+@media (max-width: 350px) {
+    /* Add your styles for smaller screens here */
+    .about-content{
+        width: 260px;
+        margin-top: 5px;
+        
+    }
+}
+
+
+
+@media (max-width: 1191px) {
+    /* Add your styles for smaller screens here */
+    .education-content{
+        color: #967867;
+        width: 370px;
+        font-weight: bold;
+        margin-left: 7%;
+        margin-top: 7%;
+        font-size: 21px;
+        
+    }
+
+    .list{
+        font-size: 22px;
+        margin-left: 17px;
+        margin-top: 17px;
+        color: #604D42;
+        margin-bottom: 26px;
+    }
+}
+
+@media (max-width: 1149px){
+    .education-content{
+        width: 270px;
+    }
+}
+
+@media (max-width: 1019px){
+    #cv-elements{
+        display: grid;
+        grid-template-columns: 1fr 25px 1fr 1fr 18px 1fr 1fr 25px 1fr;
+        grid-template-rows: 1fr 1fr 1fr 15px 18px 1fr 1fr 15px 1fr;
+        gap: 5px;
+        width: 100%;
+        height: 100%;
+        margin-top: 26px;
+        grid-row-gap: 0px;
+        grid-column-gap: 0px;
+    }
+    
+}
+
+
+@media (max-width: 1000px){
+   #cv-elements{
+    display: grid;
+    grid-template-columns: 1fr 25px 1fr 1fr 18px 1fr 1fr 25px 1fr;
+    grid-template-rows: 1fr 1fr 14px 15px 18px 1fr 15px 15px 1fr;
+    gap: 5px;
+    width: 100%;
+    height: 100%;
+    margin-top: 26px;
+    grid-row-gap: 0px;
+    grid-column-gap: 0px;
+   }
+   .list {
+    font-size: 22px;
+    margin-left: 3px;
+    margin-top: 17px;
+    color: #604D42;
+    margin-bottom: 26px;
+    }
+}
+
+
+
+@media (max-width: 1130px){
+   #cv-elements{
+    display: grid;
+    grid-template-columns: 50px 25px 1fr 1fr 18px 1fr 1fr 0px 50px;
+    grid-template-rows: 80px 1fr 1fr 15px 18px 1fr 1fr 15px 1fr;
+    gap: 5px;
+    width: 100%;
+    height: 100%;
+    grid-row-gap: 0px;
+    grid-column-gap: 0px;
+   }
+   .list {
+    font-size: 22px;
+    margin-left: 3px;
+    margin-top: 17px;
+    color: #604D42;
+    margin-bottom: 26px;
+    }
+    .education-content{
+        color: #967867;
+        width: 300px;
+        font-weight: bold;
+        margin-left: 7%;
+        margin-top: 7%;
+        font-size: 23px;
+    }
+}
+
+
+
+
+
+@media(max-width:770px){
+    #cv-elements{
+        grid-template-columns: 25px 25px 1fr 1fr 18px 1fr 1fr 0px 25px;
+    }
+}
+
+@media(max-width:729px){
+    #cv-elements{
+        display: grid;
+        grid-template-rows: 100px repeat(4, 1fr) 20px repeat(4, 1fr) 20px repeat(4, 1fr) 20px repeat(4, 1fr) 100px;
+        grid-template-columns: 50px repeat(3,1fr) 50px;
+    }
+    .education{
+        grid-row: 2/6;
+        grid-column: 2/5;
+    }
+    .skills{
+        grid-row: 7/11;
+        grid-column: 2/5;
+    }
+    .work-experience{
+        grid-row: 12/16;
+        grid-column: 2/5;
+    }
+    .personal-skills{
+        grid-row: 17/21;
+        grid-column: 2/5;
+    }
+}
+
+
+
+@media (max-width:442px){
+    #cv-elements{
+        display: grid;
+        grid-template-rows: 100px repeat(4, 1fr) 20px repeat(4, 1fr) 20px repeat(4, 1fr) 20px repeat(4, 1fr) 100px;
+        grid-template-columns: 20px repeat(3,1fr) 20px;
+    }
+}

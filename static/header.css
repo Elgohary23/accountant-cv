@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #FCF9F4;
+    font-family: "TT Drugs Trial", sans-serif;
+
+}
+
+nav {
+    width: 100%;
+    height: 300px;
+}
+
+#header {
+    width: 100%;
+    height: 25%;
+    background-color: #3C4144;
+
+}
+
+#title {
+    width: 100%;
+    height: 75%;
+    background-color: #D2C7BB;
+    display: grid;
+    /* align-items: center; */ 
+    justify-content: center;
+    flex-direction: row;
+
+    
+}
+#name{   
+    font-size: 70px;
+    font-weight: bold;
+    padding-top: 27px;
+    color: #604D42;
+    height: fit-content;
+
+   
+}
+.contact-data{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
